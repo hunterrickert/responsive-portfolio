@@ -224,11 +224,23 @@ input[type=submit] {
 
   .wrapper {
     width:600px;
+    /* padding: */
+    margin-left: 50px;
   }
-  #main-container {
-    /* margin-left: 50px;
-    margin-right:; */
+  @media screen and (max-width:640px) {
+    /* #logo {
+      width: 100%;
+      /* text-align:  */
+    } 
+
+    #masthead {
+      margin-bottom: 30px;
+    }
+
+    .wrapper {
+      width: 400px;
+      margin-top: 10px;    
   }
-}
+
 
 
